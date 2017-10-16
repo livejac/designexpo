@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hjem</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:600">
+	<!--Link til favicon-->
+</head>
+<body>
+<header>
+	<ul>
+  	<li><a href="arrangement.html">Arrangement</a></li>
+  	<li><a href="kontakt.html">Kontakt</a></li>
+  	<li><a href="om.html">Om Expo</a></li>
+	</ul>
+</header>
+<!--Innhold legges her-->
+<footer>
+	<p class="footertext">2017 © DesignExpo. All rights reserved.</p>
+</footer>
+</body>
+</html>
