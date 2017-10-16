@@ -33,6 +33,7 @@ header li a:hover {
 body{
 	position: relative;
 	padding: 70px;
+	width: 960px;
 }
 
 /*Footer styling*/
@@ -52,4 +53,65 @@ footer p{
 	text-decoration: none;
     padding: 15px 20px;
 	color: #F1F1F1;
+}
+#leder {
+    float: left;
+}
+
+#bedrift {
+    float: left;
+}
+
+#spons {
+    float: left;
+}
+
+#markedsføring {
+    float: right;
+}
+
+#arrangement {
+    float: right;
+}
+
+#økonomi {
+    float: right;
+}
+
+header {
+    height: 5em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+h4 {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #f1f1f1;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.resize {
+    width: 100px;
+    height: auto;
+}
+
+img {
+    float: left;
+}
+
+p {
+    display: inline-block;
+    padding: 10px;
 }
