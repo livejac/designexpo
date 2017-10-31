@@ -1,140 +1,176 @@
-            @charset "utf-8";
-            /* CSS Document */
-            /*Header styling*/
-            
-            header {
-                background-color: #131313;
-                position: fixed;
-                top: 0;
-                right: 0;
-                left: 0;
-            }
-            
-            header ul {
-                overflow: hidden;
-                list-style: none;
-            }
-            
-            header li {
-                float: right;
-            }
-            
-            header li a {
-                display: block;
-                font-family: "Open Sans", sans-serif;
-                text-align: center;
-                text-decoration: none;
-                padding: 15px 20px;
-                color: #F1F1F1;
-            }
-            
-            header li a:hover {
-                background-color: #777777;
-            }
-            /*Body styling*/
-            
-            body {
-                position: relative;
-                padding: 70px;
-                width: 960px;
-                background-color: #131313;
-                color: #F1F1F1;
-                font-family: "Open Sans", sans-serif;
-            }
-            
-            .wrapper {
-                display: grid;
-                grid-template-columns: repeat(2);
-                grid-gap: 40px;
-                grid-auto-rows: minmax(70px, auto);
-            }
-            /*Footer styling*/
-            
-            footer {
-                background-color: #131313;
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                left: 0;
-            }
-            
-            footer p {
-                float: right;
-                font-family: "Open Sans", sans-serif;
-                text-align: center;
-                font-size: 12px;
-                text-decoration: none;
-                padding: 15px 20px;
-                color: #F1F1F1;
-            }
-            
-            #leder {
-                grid-column: 1 / 2;
-                grid-row: 1;
-            }
-            
-            #bedrift {
-                grid-column: 1 / 2;
-                grid-row: 2;
-            }
-            
-            #spons {
-                grid-column: 1 / 2;
-                grid-row: 3;
-            }
-            
-            #markedsføring {
-                grid-column: 2 / 2;
-                grid-row: 1;
-            }
-            
-            #arrangement {
-                grid-column: 2 / 2;
-                grid-row: 2;
-            }
-            
-            #økonomi {
-                grid-column: 2 / 2;
-                grid-row: 3;
-            }
-            
-            header {
-                height: 5em;
-                margin-top: 0px;
-                margin-bottom: 20px;
-            }
-            
-            h1 {
-                font-size: 1.5em;
-                text-align: center;
-                color: #f1f1f1;
-            }
-            
-            h2 {
-                font-size: 22px;
-                font-family: 'Open Sans', 'Helvetica Neue', sans-serif
-            }
-            
-            h4 {
-                text-align: left;
-                font-family: 'Montserrat', sans-serif;
-                color: #f1f1f1;
-                font-size: 16px;
-                line-height: 35px;
-            }
-            
-            .resize {
-                width: 100px;
-                height: auto;
-            }
-            
-            img {
-                float: left;
-            }
-            
-            p {
-                display: inline-block;
-                padding: 10px;
-            }
-            
-            {}
+           @charset "utf-8";
+ /* CSS Document */
+ /*Universal css*/
+ 
+ header {
+     /*Header styling*/
+     background-color: #131313;
+     position: fixed;
+     top: 0;
+     right: 0;
+     left: 0;
+ }
+ 
+ header ul {
+     overflow: hidden;
+     list-style: none;
+ }
+ 
+ header li {
+     float: right;
+ }
+ 
+ header li a {
+     display: block;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 20px;
+     text-align: center;
+     text-decoration: none;
+     padding: 15px 20px;
+     color: #F1F1F1;
+ }
+ 
+ header li a:hover {
+     background-color: #777777;
+ }
+ 
+ header {
+     height: 5em;
+ }
+ 
+ h1 {
+     font-size: 32px;
+     text-align: center;
+     color: #f1f1f1;
+     letter-spacing: 20px;
+     font-family: 'Montserrat', sans-serif;
+ }
+ 
+ h2 {
+     font-size: 22px;
+     font-family: 'Montserrat', sans-serif;
+ }
+ 
+ h4 {
+     font-family: 'Montserrat', sans-serif;
+     color: #f1f1f1;
+     font-size: 16px;
+     line-height: 15px;
+ }
+ /*Body styling*/
+ 
+ body {
+     position: relative;
+     padding: 70px;
+     width: 960px;
+     background-color: #131313;
+     color: #F1F1F1;
+     font-family: 'Montserrat', sans-serif;
+     margin: auto;
+ }
+ /*Footer styling*/
+ 
+ footer {
+     background-color: #131313;
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     left: 0;
+ }
+ 
+ footer p {
+     float: right;
+     font-family: 'Montserrat', sans-serif;
+     text-align: center;
+     font-size: 12px;
+     text-decoration: none;
+     padding: 15px 20px;
+     color: #F1F1F1;
+ }
+ /* For Kontaktsiden*/
+ /*.bodi {
+     position: relative;
+     margin: auto;
+ }*/
+ 
+ .wrapper {
+     display: grid;
+     grid-template-columns: repeat(2);
+     grid-gap: 40px;
+     margin: auto;
+     padding-top: 45px;
+     grid-column-gap: 20%;
+     /*grid-auto-rows: minmax(70px, auto);*/
+ }
+ 
+ .infobox h4 {
+     /* små overskrifter */
+     margin: auto;
+     width: 33%;
+     border-bottom: 1px solid #F1F1F1;
+     border-bottom-width: 1px;
+     padding: 2px;
+     text-align: center;
+ }
+ 
+ .infobox {
+     grid-row-gap: 20%;
+     grid-column-gap: 20%;
+ }
+ 
+ #leder {
+     grid-column: 1 / 2;
+     grid-row: 1;
+ }
+ 
+ #bedrift {
+     grid-column: 1 / 2;
+     grid-row: 2;
+ }
+ 
+ #spons {
+     grid-column: 1 / 2;
+     grid-row: 3;
+ }
+ 
+ #markedsføring {
+     grid-column: 2 / 2;
+     grid-row: 1;
+ }
+ 
+ #arrangement {
+     grid-column: 2 / 2;
+     grid-row: 2;
+ }
+ 
+ #økonomi {
+     grid-column: 2 / 2;
+     grid-row: 3;
+ }
+ 
+ #kon {
+     /* Hovedoverskrift*/
+     margin: auto;
+     width: 40%;
+     border-bottom: 1px solid #F1F1F1;
+     border-bottom-width: 1px;
+     padding: 5px;
+     font-size: 55px;
+     font-weight: 100;
+ }
+ 
+ .resize {
+     width: 140px;
+     height: auto;
+ }
+ 
+ img {
+     float: left;
+     border: 1px solid #F1F1F1;
+     border-radius: 100px;
+ }
+ 
+ p {
+     display: inline-block;
+     padding: 3px 5px 0px 20px;
+ }
