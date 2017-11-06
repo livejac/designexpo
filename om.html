@@ -2,44 +2,53 @@
 <html>
 <head> 
 <meta charset="UTF-8">
-<title>Untitled Document</title>
-<link rel="stylesheet" type= "text/css" href=" CSS/style.css" >
+<title>Untitled Document</title> 
+<link rel="stylesheet" type= "text/css" href="style.css"> 
 </head>
 
 <body>
-	
-	<div id="om">
-		<h1> OM EXPO </h1> <!-- h1 overskrift, style i felles CSS !--> 
-	</div>
-	
-	<div id="hva"> 
-	
-			<h3> HVA ER EXPO? </h3> <!-- h3 venstrestilt suboverskrift, style i felles CSS !--> 
-			
-			<p> DesignEXPO arrangeres årlig av tredjeklasse ved sivilingeniørutdanningen Industriell Design, NTNU. DesignEXPO varer en uke, og inneholder foredrag, workshops og tverrfaglig utveksling. I forbindelse med denne uken har vi også en TEDx-inspirert dag med foredrag om skal legge til rette for diskusjon. DesignEXPO 2018 vil arrangeres 12.-16. februar, og årets tema er Teknologiens Ansikt. Overskuddet fra Design EXPO går til en ekskursjon for 3. årstrinn ved Industriell Design. I 2018 går turen til Japan, der studentene ....
-			</p>	
-			
-	</div>
-	
-	<div id="hvor"> 
-		
-			<h3> HVOR OG NÅR? </h3> <!-- h3 venstrestilt suboverskrift, style i felles CSS !--> 
-		
-			<p> DesignEXPO arrangeres 12-16 februar 2018. Arrangementene vil hovedsakelig foregå på institutt for Design, men kan variere noe. Mer informasjon kan du finne 
-			<a href="about.html"> her. </a>
-			</p>	
-			
-	</div>
-	
+<div class="contentAbout">
+	<canvas id="animation"></canvas>
 
-	<div id="hvorfor">  
-			<h3> HVORFOR? </h3>  <!-- h3 venstrestilt suboverskrift, style i felles CSS !--> 
+	<div class="overAnimation">
+		<div id="fadetext">
 		
-			<p> DesignEXPO har som mål å fremheve ansvaret designere og teknologer står ovenfor når det gjelder formingen av fremtidens samfunn. DesignEXPO vil inneholde workshops og debatter som problematiserer ulike dilemmaer som oppstår i takt med økende grad av automatisering og bruk av artificial intelligence i samfunnet. Hvilke hensyn må tas og hvilken etikk skal man følge når intelligent teknologi blir en sentral del i samfunnet? Hvilke fordeler og ulemper kan slik teknologi bringe for mennesket? Teknologiske nyvinninger kommer med stormskritt, og verden står overfor en epoke fylt med utrolige muligheter og tilhørende etiske dilemmaer. Vitenskapsmenn, historikere og filosofer strider om hvordan fremtiden skal se ut. Vi teknologer har et samfunnsansvar når det gjelder utforming av fremtiden og dens tilhørende teknologi. Hvordan skal vi designe fremtid? 
-			</p>	
+			<h1 class="title"> OM EXPO </h1>
+			<hr class="strokeT" > 
 			
+				<div class="left">
+			 		 <h2> HVA ER EXPO? </h2>
+			 		 <hr class="strokeL"> 
+			  		 <p> DesignEXPO arrangeres årlig av tredjeklasse ved sivilingeniørutdanningen Industriell Design, NTNU. DesignEXPO varer en uke, og inneholder foredrag, workshops og tverrfaglig utveksling. I forbindelse med denne uken har vi også en TEDx-inspirert dag med foredrag om skal legge til rette for diskusjon. DesignEXPO 2018 vil arrangeres 12.-16. februar, og årets tema er Teknologiens Ansikt. Overskuddet fra Design EXPO går til en ekskursjon for 3. årstrinn ved Industriell Design. I 2018 går turen til Japan, der studentene ....</p>
+				</div>
+	
+		
+		
+				<div class="right">
+			 		 <h2> HVOR OG NÅR?</h2>
+			 		 <hr class="strokeR"> 
+			 		 <p> DesignEXPO arrangeres 12-16 februar 2018. Arrangementene vil hovedsakelig foregå på institutt for Design, men kan variere noe. Mer informasjon kan du finne. <a href="about.html"> her </a>. DesignEXPO har som mål å fremheve ansvaret designere og teknologer står ovenfor når det gjelder formingen av fremtidens samfunn. DesignEXPO vil inneholde workshops og debatter som problematiserer ulike dilemmaer som oppstår i takt med økende grad av automatisering og bruk av artificial intelligence i samfunnet.
+			 		 </p>	
+		    	</div>
+		
+
+			
+			   <div class="left">
+			 		<h2> HVORFOR? </h2>
+			  		<hr class="strokeL"> 
+			  		<p> DesignEXPO har som mål å fremheve ansvaret designere og teknologer står ovenfor når det gjelder formingen av fremtidens samfunn. DesignEXPO vil inneholde workshops og debatter som problematiserer ulike dilemmaer som oppstår i takt med økende grad av automatisering og bruk av artificial intelligence i samfunnet. Hvilke hensyn må tas og hvilken etikk skal man følge når intelligent teknologi blir en sentral del i samfunnet? Hvilke fordeler og ulemper kan slik teknologi bringe for mennesket? Teknologiske nyvinninger kommer med stormskritt, og verden står overfor en epoke fylt med utrolige muligheter og tilhørende etiske dilemmaer. Vitenskapsmenn, historikere og filosofer strider om hvordan fremtiden skal se ut. Vi teknologer har et samfunnsansvar når det gjelder utforming av fremtiden og dens tilhørende teknologi. Hvordan skal vi designe fremtid? 
+			  		</p>
+			   </div>
+			   
+		</div>
+		
 	</div>
 	
+</div>
+
+<script type ="text/javascript" src="themeanimation.js"> </script>
 
 </body>
 </html>
+
+
