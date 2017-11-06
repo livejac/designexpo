@@ -206,18 +206,60 @@ h3 {
      font-weight: 100;
  }
  
- .resize {
-     width: 140px;
-     height: auto;
- }
- 
- img {
-     float: left;
-     border: 1px solid #F1F1F1;
-     border-radius: 100px;
- }
- 
- p {
-     display: inline-block;
-     padding: 3px 5px 0px 20px;
- }
+
+.resize {
+    width: 140px;
+    height: auto;
+    float: left;
+    border: 2px solid #F1F1F1;
+    border-radius: 100px;
+}
+
+wrapper,
+p {
+    display: inline-block;
+    padding: 15px 10px 0px 15px;
+}
+
+
+/*CSS FOR ARRANGEMENT*/
+
+#arr {
+    margin: auto;
+    width: 70%;
+    border-bottom: 1px solid #F1F1F1;
+    border-bottom-width: 1px;
+    padding: 5px;
+    font-size: 55px;
+    font-weight: 100;
+}
+
+
+/*hr {
+             width: 70%;*/
+
+.container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 30px;
+}
+
+.boxes {
+    order: integer;
+    flex: none;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    border: solid 1px #F1F1F1
+}
+
+.inmate {
+    position: absolute;
+    top: 20%;
+    left: 45%
+}
