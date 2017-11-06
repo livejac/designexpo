@@ -352,3 +352,41 @@ p {
 	margin-top: 100px; 
 	
 /*om-expo CSS slutt*/
+/*for timeline*/
+#timeline{
+	display: block;
+	height: 150px;
+	position: absolute;
+	top: 120px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.timelinebox {
+	display: inline-block;
+	margin: 5px;
+    width: 40px;
+    height: 40px;
+	border-radius: 50%;
+	border-width: 1px;
+	border-style: solid;
+    border-color: white;
+	color: white;
+	font-size: 16px;
+	background-color: black;
+    transition: width 0.8s, height 0.8s;
+	transition-timing-function: ease-in-out;
+}
+#time5{
+	width: 100px;
+	height: 100px;
+	font-size: 35px;
+}
+#time1, #time2, #time8, #time9{
+	visibility: hidden;
+}
+
+.timelinebox:hover {
+    width: 90px;
+	height: 90px;
+	border-radius: 50%;
+}
