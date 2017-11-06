@@ -36,6 +36,15 @@
      background-color: #777777;
  }
 
+
+/* 
+h1= header
+h2= subheader
+h3= venstrestilt mindre header
+h4= brødtekst
+*/
+
+
  
  h1 {
      font-size: 32px;
@@ -48,8 +57,19 @@
  h2 {
      font-size: 22px;
      font-family: 'Montserrat', sans-serif;
+	 color: #f1f1f1;
+	 
  }
  
+h3 { 
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	color: #f1f1f1;
+	font-size: 25px;
+	line-height: 35px; 
+}
+
+
  h4 {
      font-family: 'Montserrat', sans-serif;
      color: #f1f1f1;
