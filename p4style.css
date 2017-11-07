@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    max-width: 75ch;
+    margin: auto;
+    background-color: #361B7B;
+    font-family: 'Raleway', 'Arial', 'sans-serif';
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+section {
+    border: 2px dotted #00FFCE;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+header {
+    height: 5em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h1,
+h2 {
+    font-size: 1.5em;
+}
+
+h2 span {
+    font-size: 0.5em;
+}
+
+section>ol>li {
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 18px;
+}
+
+
+/*li {
+    display: inline;
+    margin-right: 10px;
+}*/
+
+.title {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#expologo {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+figcaption {
+    font-size: 10px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 150px;
+    font-size: 13px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: darkgray;
+}
+
+a:hover {
+    color: white;
+    background-color: hotpink;
+}
+
+a:active {
+    color: white;
+    background-color: cyan;
+}
+
+.bilde {
+    width: 60ch;
+    margin-left: 40px;
+    display: inline;
+}
+
+.mobil {
+    display: inline;
+}
+
+.table,
+th,
+td {
+    border: 2px solid gray;
+    padding: 6px;
+}
