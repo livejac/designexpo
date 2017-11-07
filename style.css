@@ -80,6 +80,7 @@ h3 {
  
  body {
      position: relative;
+     min-width: 25%;
      width: 100%;
      background-color: #131313;
      color: #F1F1F1;
@@ -135,81 +136,52 @@ h3 {
 	margin:auto;
 }
  /* For Kontaktsiden*/
- /*.bodi {
-     position: relative;
-     margin: auto;
- }*/
+
  
- .wrapper {
-     display: grid;
-     grid-template-columns: repeat(2);
-     grid-gap: 40px;
-     margin: auto;
-     padding-top: 45px;
-     grid-column-gap: 20%;
-     /*grid-auto-rows: minmax(70px, auto);*/
- }
- 
- .infobox h4 {
-     /* små overskrifter */
-     margin: auto;
-     width: 33%;
-     border-bottom: 1px solid #F1F1F1;
-     border-bottom-width: 1px;
-     padding: 2px;
-     text-align: center;
- }
- 
- .infobox {
-     grid-row-gap: 20%;
-     grid-column-gap: 20%;
- }
- 
- #leder {
-     grid-column: 1 / 2;
-     grid-row: 1;
- }
- 
- #bedrift {
-     grid-column: 1 / 2;
-     grid-row: 2;
- }
- 
- #spons {
-     grid-column: 1 / 2;
-     grid-row: 3;
- }
- 
- #markedsføring {
-     grid-column: 2 / 2;
-     grid-row: 1;
- }
- 
- #arrangement {
-     grid-column: 2 / 2;
-     grid-row: 2;
- }
- 
- #økonomi {
-     grid-column: 2 / 2;
-     grid-row: 3;
- }
- 
- #kon {
-     /* Hovedoverskrift*/
-     margin: auto;
-     width: 40%;
-     border-bottom: 1px solid #F1F1F1;
-     border-bottom-width: 1px;
-     padding: 5px;
-     font-size: 55px;
-     font-weight: 100;
- }
- 
+.wrapper {
+    display: flex;
+    margin: auto;
+    padding-top: 45px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*grid-auto-rows: minmax(70px, auto);*/
+}
+
+.infobox h4 {
+    /* små overskrifter */
+    margin: auto;
+    width: 33%;
+    border-bottom: 1px solid #F1F1F1;
+    border-bottom-width: 1px;
+    padding: 1px;
+    text-align: center;
+}
+
+.infobox {
+    padding: 20px;
+    min-width: 45%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#kon {
+    /* Hovedoverskrift*/
+    margin: auto;
+    width: 40%;
+    border-bottom: 1px solid #F1F1F1;
+    border-bottom-width: 1px;
+    padding: 5px;
+    font-size: 55px;
+    font-weight: 100;
+}
 
 .resize {
     width: 140px;
-    height: auto;
+    height: 140px;
     float: left;
     border: 2px solid #F1F1F1;
     border-radius: 100px;
@@ -250,7 +222,6 @@ p {
 }
 
 .boxes {
-    order: integer;
     flex: none;
     margin: auto;
     width: 50%;
