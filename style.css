@@ -390,3 +390,66 @@ p {
 	height: 90px;
 	border-radius: 50%;
 }
+
+/* For les mer boks*/
+
+#box {
+	background-color: #131313;
+	border: 1px solid #FFFFFF;
+	padding: 2%;
+}
+
+.box-title {
+	color: #FFF;
+	text-align: center;
+}
+
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  	content: "Les mer";
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  	content: "Les mindre";
+}
+
+.read-more-trigger {
+	cursor: pointer;
+	display: inline-block;
+	padding: 0 .5em;
+	color: #ECECEC;
+	font-size: .9em;
+	line-height: 2;
+	background-color: #131313;
+	border: 1px solid #FFFFFF;
+	text-align: center;
+}
+
+/* Other style */ 
+
+.read-more-wrap {
+	padding: 2%;
+	background: #131313;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#post-1 {
+	text-align: center;
+}
