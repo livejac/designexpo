@@ -273,3 +273,29 @@
 	height: 90px;
 	border-radius: 50%;
 }
+
+/* Logo hover*/
+
+
+.logo {
+	display: block; 
+    width: 200px;
+	height: 60px;
+    background-image: url("../../Grafisk/white.png");
+    background-repeat: no-repeat;
+	background-size: 70% 70%;
+    background-position: 50% 50%;
+	float: left;
+}
+
+.logo:hover {
+	width: 200px;
+	height: 60px;
+    background-image: url("../../Grafisk/whitewithcolor.png");
+    background-size: 70% 70%;
+	background-repeat: no-repeat;
+    background-position: 50% 50%;
+	transition: 1.2s; 
+}
+
+
