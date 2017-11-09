@@ -277,14 +277,10 @@
 /* Logo hover*/
 
 
-body{
-	background-color: black;
-}
 .logo {
 	display: block; 
     width: 200px;
 	height: 60px;
-	/*background-color: black;*/
     background-image: url("../../Grafisk/white.png");
     background-repeat: no-repeat;
 	background-size: 70% 70%;
