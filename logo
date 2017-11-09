@@ -1,0 +1,15 @@
+<!doctype html>
+<!--
+PURPOSE: Change the color of the logo when hovered upon -->
+<html>
+<head>
+<meta charset="UTF-8">
+<link type="text/css" href="logohover.css" rel="stylesheet">
+<title></title>
+</head>
+<body id="body">
+			<a class="logo" href="#top">
+				<!-- LOGO -->
+			</a>
+</body>
+</html>
