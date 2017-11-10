@@ -393,4 +393,95 @@ header {
 .hoyre {
 	float: right;
 	margin-bottom: 50px;
+	
+	
+/* Koden under tilhører om-siden: */
 
+/* sørger for at animasjonen er bakgrunn*/ 
+.contentAbout #animation { 
+	position: fixed;
+	opacity: 0.5; 
+}
+
+/* sørger for at teksten er over animasjonen*/ 
+.overAnimation{
+	display: block;
+	position: absolute;
+	top: 10%;
+	left: 5%; 
+	right: 5%; 
+}
+
+/* sørger for at teksten beveger seg oppover*/ 
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+	opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+	opacity: 1;
+  }
+}
+
+#fadetext {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 2s ease-out 0s 1 slideInFromBottom;
+  padding: 30px;
+ 
+}
+#fadetext p{  
+  /* This section calls the slideInFromLeft animation we defined above */
+  padding: 0;
+ 
+}
+
+/* sørger for at avsnittene holder seg på venstre side*/ 
+.left {
+	margin: 5em 5em 5em 5em;
+    width: 40%;
+    float: left;
+	line-height: 150%;
+	text-align: left; 
+}
+
+/* sørger for at avsnittene holder seg på høyre side*/ 
+.right {
+	margin: 0em 5em 0em 5em;
+    width: 40%;
+	float: right; 
+	line-height: 150%; 
+	text-align: right; 
+}
+
+/* sørger for at strek under venstre overskrift i OM EXPO er på riktig sted*/ 
+
+.strokeL { 
+	width: 20%; 
+	float: left; 
+
+} 
+	
+/* sørger for at strek under høyre overskrift i OM EXPO er på riktig sted*/ 
+.strokeR { 
+	width: 20%; 
+	float: right;
+	padding-top: -5px; 
+} 
+
+/* sørger for at strek under overskrift OM EXPO er på riktig sted*/
+
+.strokeT {
+	width: 15%; 
+	
+	
+}
+
+/* sørger for at overskrift OM EXPO er på riktig sted og midtsentrert*/
+.title { 
+	text-align: center; 
+	margin-top: 100px; 
+
+
+ /*kode til om-siden slutt*/   
+	
