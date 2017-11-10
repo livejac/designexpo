@@ -1,42 +1,53 @@
 @charset "utf-8";
- /* CSS Document */
- /*Universal css*/
 
- .header {
-     /*Header styling*/
-     background-color: #131313;
-	 padding-right: 0.2em;
-     position: fixed;
-	 z-index: 1;
-     top: 0;
-     right: 0;
-     left: 0;
- }
- 
- .header ul {
-     overflow: hidden;
-     list-style: none;
- }
- 
- .header li {
-     float: right;
- }
- 
- .header li a {
-     display: block;
-     font-family: 'Montserrat', sans-serif;
-     font-size: 20px;
-     text-align: center;
-     text-decoration: none;
-     padding: 7px 20px;
-     color: #F1F1F1;
- }
- 
- .header li a:hover {
-     background-color: #777777;
- }
+body, html {
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	min-height: 100vh; /*Sørger for at body og html har minimumhøyde 100vh slik at footer alltid kommer i bunn av siden, selv om innholdet ikke fyller hele siden.*/
+}
 
- 
+header {
+	position: relative;
+}
+
+
+#headertekst {
+	position: absolute;
+	padding: 20px;
+	color: #f1f1f1;
+	bottom: 30px;
+	left: 30px;
+	z-index: 2; /*Flytter headertekst under menybar */
+}
+
+#headertekst p, #headertekst h1 {
+	margin: 0px;
+	padding: 0px;
+}
+
+#topbar{
+	width: 100%;
+	height: 40px;
+	top: 0px;
+	z-index: 3; /* menybaren over alle andre elementer på siden*/
+	background-color: #131313;
+	position: fixed;
+}
+
+
+
+#meny {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+
+/*Det over her e nytt*/ 
+
  h1 {
      font-size: 32px;
      text-align: center;
@@ -248,67 +259,6 @@
 }
 
 /* Logo hover*/
-
-
-.logo {
-	display: block; 
-    width: 200px;
-	height: 60px;
-    background-image: url("../../Grafisk/white.png");
-    background-repeat: no-repeat;
-	background-size: 70% 70%;
-    background-position: 50% 50%;
-	float: left;
-}
-
-.logo:hover {
-	width: 200px;
-	height: 60px;
-    background-image: url("../../Grafisk/whitewithcolor.png");
-    background-size: 70% 70%;
-	background-repeat: no-repeat;
-    background-position: 50% 50%;
-	transition: 1.2s; 
-}
-
-/*Legger til endringer her */
-
-body, html {
-	overflow-x: hidden;
-	overflow-y: auto;
-	margin: 0px;
-	font-family: 'Montserrat', sans-serif;
-	min-height: 100vh; /*Sørger for at body og html har minimumhøyde 100vh slik at footer alltid kommer i bunn av siden, selv om innholdet ikke fyller hele siden.*/
-}
-
-header {
-	position: relative;
-}
-
-
-#headertekst {
-	position: absolute;
-	padding: 20px;
-	color: #f1f1f1;
-	bottom: 30px;
-	left: 30px;
-	z-index: 2; /*Flytter headertekst under menybar */
-}
-
-#headertekst p, #headertekst h1 {
-	margin: 0px;
-	padding: 0px;
-}
-
-#topbar{
-	width: 100%;
-	height: 40px;
-	top: 0px;
-	z-index: 3; /* menybaren over alle andre elementer på siden*/
-	background-color: #131313;
-	position: fixed;
-}
-
 .logo {
 	/*height: 20px;
 	margin: 10px;
@@ -334,18 +284,12 @@ header {
 	transition: 1.2s; 
 	}
 
-#meny {
-	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
-	overflow: hidden;
-}
 
-/*.linje{
-	border: 1px solid #FFFF00;
-	width: 60vw;
-	margin: 50px auto;
-}*/
+/*Legger til endringer her */
+
+
+/* Her ligger kode for burgerMeny */
+
 
 
 .topnav a { /*  endrer farge og font og størrelse på headertekst*/
