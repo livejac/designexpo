@@ -117,37 +117,49 @@
 }
  /* For Kontaktsiden*/
 .wrapper {
+    width: 70%;
     display: flex;
     margin: auto;
-    padding-top: 45px;
+    padding: 25px 0 50px 0;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    /*grid-auto-rows: minmax(70px, auto);*/
 }
 
 .infobox h4 {
     /* små overskrifter */
-    margin: auto;
-    width: 33%;
+    display: block;
+    margin: 0 0 20px 160px;
+    width: 25%;
     border-bottom: 1px solid #F1F1F1;
     border-bottom-width: 1px;
     padding: 1px;
     text-align: center;
 }
 
+.infobox p {
+    /*margin: auto;
+    width: 35%;
+    text-align: left;
+    display: inline-block;*/
+    display: inline-block;
+    padding: 0 15px 0 15px;
+    margin: auto;
+    width: 30%;
+    text-align: left;
+}
+
 .infobox {
     padding: 20px;
     min-width: 45%;
-    max-width: 100%;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
 #kon {
     /* Hovedoverskrift*/
-    margin: auto;
-    width: 40%;
+    margin: 80px auto;
+    width: 33%;
     border-bottom: 1px solid #F1F1F1;
     border-bottom-width: 1px;
     padding: 5px;
@@ -162,13 +174,6 @@
     border: 2px solid #F1F1F1;
     border-radius: 100px;
 }
-
-wrapper,
-p {
-    display: inline-block;
-    padding: 15px 10px 0px 15px;
-}
-
  
 /*for arrangement page*/
 #arr{
