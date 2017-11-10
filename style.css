@@ -116,92 +116,65 @@
 	margin:auto;
 }
  /* For Kontaktsiden*/
- /*.bodi {
-     position: relative;
-     margin: auto;
- }*/
+.wrapper {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    padding: 25px 0 50px 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.infobox h4 {
+    /* små overskrifter */
+    display: block;
+    margin: 0 0 20px 160px;
+    width: 25%;
+    border-bottom: 1px solid #F1F1F1;
+    border-bottom-width: 1px;
+    padding: 1px;
+    text-align: center;
+}
+
+.infobox p {
+    /*margin: auto;
+    width: 35%;
+    text-align: left;
+    display: inline-block;*/
+    display: inline-block;
+    padding: 0 15px 0 15px;
+    margin: auto;
+    width: 30%;
+    text-align: left;
+}
+
+.infobox {
+    padding: 20px;
+    min-width: 45%;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#kon {
+    /* Hovedoverskrift*/
+    margin: 80px auto;
+    width: 33%;
+    border-bottom: 1px solid #F1F1F1;
+    border-bottom-width: 1px;
+    padding: 5px;
+    font-size: 55px;
+    font-weight: 100;
+}
+
+.resize {
+    width: 140px;
+    height: 140px;
+    float: left;
+    border: 2px solid #F1F1F1;
+    border-radius: 100px;
+}
  
- .wrapper {
-     display: grid;
-     grid-template-columns: repeat(2);
-     grid-gap: 40px;
-     margin: auto;
-     padding-top: 45px;
-     grid-column-gap: 20%;
-     /*grid-auto-rows: minmax(70px, auto);*/
- }
- 
- .infobox h4 {
-     /* små overskrifter */
-     margin: auto;
-     width: 33%;
-     border-bottom: 1px solid #F1F1F1;
-     border-bottom-width: 1px;
-     padding: 2px;
-     text-align: center;
- }
- 
- .infobox {
-     grid-row-gap: 20%;
-     grid-column-gap: 20%;
- }
- 
- #leder {
-     grid-column: 1 / 2;
-     grid-row: 1;
- }
- 
- #bedrift {
-     grid-column: 1 / 2;
-     grid-row: 2;
- }
- 
- #spons {
-     grid-column: 1 / 2;
-     grid-row: 3;
- }
- 
- #markedsføring {
-     grid-column: 2 / 2;
-     grid-row: 1;
- }
- 
- #arrangement {
-     grid-column: 2 / 2;
-     grid-row: 2;
- }
- 
- #økonomi {
-     grid-column: 2 / 2;
-     grid-row: 3;
- }
- 
- #kon {
-     /* Hovedoverskrift*/
-     margin: auto;
-     width: 40%;
-     border-bottom: 1px solid #F1F1F1;
-     border-bottom-width: 1px;
-     padding: 5px;
-     font-size: 55px;
-     font-weight: 100;
- }
- 
- .resize {
-     width: 140px;
-     height: auto;
- }
- 
- img {
-     float: left;
-     border: 1px solid #F1F1F1;
-     border-radius: 100px;
- }
- 
- p {
-     display: inline-block;
-     padding: 3px 5px 0px 20px;
- }
 /*for arrangement page*/
 #arr{
 	display: block;
